@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.7422060c.eot"
   },
   {
-    "revision": "2a21b802dd81dbb5270f",
+    "revision": "70ff41c13b22384ae6f5",
     "url": "/fyp/static/css/main.39972da0.chunk.css"
   },
   {
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/argon-react.f38ddea9.png"
   },
   {
-    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
-    "url": "/fyp/static/media/nucleo-icons.2569aaea.woff"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
+  },
+  {
+    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
+    "url": "/fyp/static/media/nucleo-icons.2569aaea.woff"
   },
   {
     "revision": "c1733565b32b585676302d4233c39da8",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.381af09a.woff"
   },
   {
-    "revision": "2a21b802dd81dbb5270f",
-    "url": "/fyp/static/js/main.5c547d2a.chunk.js"
+    "revision": "70ff41c13b22384ae6f5",
+    "url": "/fyp/static/js/main.83f2aa1d.chunk.js"
   },
   {
     "revision": "73fe7f1effbf382f499831a0a9f18626",
@@ -164,7 +164,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "05e8b0a3451a514319e8bc3b3bc7de56",
+    "revision": "b7a509c866d5201832e58beebdb0ebfd",
     "url": "/fyp/index.html"
   }
 ];
