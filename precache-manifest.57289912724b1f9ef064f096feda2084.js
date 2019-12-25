@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.7422060c.eot"
   },
   {
-    "revision": "70ff41c13b22384ae6f5",
+    "revision": "222d8aaf1b3ba97cc815",
     "url": "/fyp/static/css/main.39972da0.chunk.css"
   },
   {
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.381af09a.woff"
   },
   {
-    "revision": "70ff41c13b22384ae6f5",
-    "url": "/fyp/static/js/main.83f2aa1d.chunk.js"
+    "revision": "222d8aaf1b3ba97cc815",
+    "url": "/fyp/static/js/main.129c1824.chunk.js"
   },
   {
     "revision": "73fe7f1effbf382f499831a0a9f18626",
@@ -164,7 +164,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "b7a509c866d5201832e58beebdb0ebfd",
+    "revision": "844c79ec89e9c4b1a2bf05b7a425c44e",
     "url": "/fyp/index.html"
   }
 ];
