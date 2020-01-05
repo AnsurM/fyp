@@ -59,7 +59,8 @@ class Login extends React.Component {
     let user = users.admins.find(user => user.username == credentials.email);
     if (user != undefined) {
       if (user.password == credentials.password) {
-        alert("Logging in...");
+        this.props.history.push("/institute/issue-certificate");
+        // alert("Logging in...");
       } else {
         alert("Invalid login data...");
       }

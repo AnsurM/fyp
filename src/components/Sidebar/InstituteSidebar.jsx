@@ -247,14 +247,14 @@ class Sidebar extends React.Component {
             {/* Navigation */}
             <Nav navbar>{this.createLinks(routes)}</Nav>
             {/* Divider */}
-            <hr className="my-3" />
+            {/* <hr className="my-3" /> */}
             {/* Heading */}
-            <h6 className="navbar-heading text-muted">Manage Account</h6>
+            {/* <h6 className="navbar-heading text-muted">Manage Account</h6> */}
             {/* Navigation */}
-            <Nav navbar>
+            {/* <Nav navbar>
               <NavItem>
                 <NavLink
-                  to={"institute/change-password"}
+                  to="/change-password"
                   tag={NavLinkRRD}
                   onClick={this.closeCollapse}
                   activeClassName="active"
@@ -263,7 +263,7 @@ class Sidebar extends React.Component {
                   Change Password
                 </NavLink>
               </NavItem>
-            </Nav>
+            </Nav> */}
           </Collapse>
         </Container>
       </Navbar>

@@ -20,7 +20,7 @@ import { Route, Switch } from "react-router-dom";
 // reactstrap components
 import { Container } from "reactstrap";
 // core components
-import InstituteNavbar from "components/Navbars/AdminNavbar.jsx";
+import InstituteNavbar from "components/Navbars/InstituteNavbar.jsx";
 import AdminFooter from "components/Footers/AdminFooter.jsx";
 // import Sidebar from "components/Sidebar/Sidebar.jsx";
 import Sidebar from "components/Sidebar/InstituteSidebar.jsx";

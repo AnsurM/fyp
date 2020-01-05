@@ -39,9 +39,9 @@ ReactDOM.render(
       <Route path="/admin" render={props => <AdminLayout {...props} />} />
       <Route path="/auth" render={props => <AuthLayout {...props} />} />
       {/* <Redirect from="/" to="/admin/index" /> */}
-      <Redirect from="/*" to="/auth/login/student" />
-      <Redirect from="/auth" to="/auth/login/student" />
-      <Route render={() => <Redirect to="/" />} />
+      {/* <Redirect from="/*" to="/auth/login/student" /> */}
+      {/* <Redirect from="/auth" to="/auth/login/student" /> */}
+      <Route render={() => <Redirect to="/auth/login/student" />} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
