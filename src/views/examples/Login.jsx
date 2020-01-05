@@ -168,8 +168,7 @@ class Login extends React.Component {
             </Card>
           </Col>
         );
-      }
-      if (setView == "student") {
+      } else if (setView == "student") {
         return (
           <Col lg="5" md="7">
             <Card className="bg-secondary shadow border-0">
@@ -253,6 +252,8 @@ class Login extends React.Component {
             </Card>
           </Col>
         );
+      } else {
+        return <h2>404 Not Found</h2>;
       }
     } else {
       return <h2>404 Not Found</h2>;

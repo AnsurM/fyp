@@ -22,6 +22,7 @@ import Register from "views/examples/Register.jsx";
 import Login from "views/examples/Login.jsx";
 import Tables from "views/examples/Tables.jsx";
 import Icons from "views/examples/Icons.jsx";
+import IssueCertificate from "views/examples/IssueCertificate.jsx";
 
 var routesOriginal = [
   {
@@ -76,12 +77,28 @@ var routesOriginal = [
 ];
 
 var routes = [
+  // Authentication routes before log in
   {
     path: "/login",
     name: "Login",
     icon: "ni ni-key-25 text-info",
     component: Login,
     layout: "/auth"
+  },
+  // Institute routes after log in
+  {
+    path: "/all-certificates",
+    name: "All Certifications",
+    icon: "ni ni-bullet-list-67 text-green",
+    component: Tables,
+    layout: "/institute"
+  },
+  {
+    path: "/issue-certificate",
+    name: "Issue Certificate",
+    icon: "ni ni-bullet-list-67 text-red",
+    component: IssueCertificate,
+    layout: "/institute"
   }
 ];
 

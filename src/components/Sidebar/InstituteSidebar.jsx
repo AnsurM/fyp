@@ -81,19 +81,22 @@ class Sidebar extends React.Component {
   // creates the links that appear in the left menu / Sidebar
   createLinks = routes => {
     return routes.map((prop, key) => {
-      return (
-        <NavItem key={key}>
-          <NavLink
-            to={prop.layout + prop.path}
-            tag={NavLinkRRD}
-            onClick={this.closeCollapse}
-            activeClassName="active"
-          >
-            <i className={prop.icon} />
-            {prop.name}
-          </NavLink>
-        </NavItem>
-      );
+      if (prop.layout === "/institute") {
+        return (
+          <NavItem key={key}>
+            <NavLink
+              to={prop.layout + prop.path}
+              tag={NavLinkRRD}
+              onClick={this.closeCollapse}
+              activeClassName="active"
+            >
+              <i className={prop.icon} />
+              {prop.name}
+            </NavLink>
+          </NavItem>
+        );
+      }
+      return null;
     });
   };
   render() {
@@ -261,27 +264,6 @@ class Sidebar extends React.Component {
                 </NavLink>
               </NavItem>
             </Nav>
-            {/* Navigation */}
-            {/* <Nav className="mb-md-3" navbar>
-              <NavItem>
-                <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/documentation/overview?ref=adr-admin-sidebar">
-                  <i className="ni ni-spaceship" />
-                  Getting started
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/documentation/colors?ref=adr-admin-sidebar">
-                  <i className="ni ni-palette" />
-                  Foundation
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/documentation/alerts?ref=adr-admin-sidebar">
-                  <i className="ni ni-ui-04" />
-                  Components
-                </NavLink>
-              </NavItem>
-            </Nav> */}
           </Collapse>
         </Container>
       </Navbar>
