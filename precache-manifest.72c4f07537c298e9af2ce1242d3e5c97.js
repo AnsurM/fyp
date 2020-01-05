@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.7422060c.eot"
   },
   {
-    "revision": "222d8aaf1b3ba97cc815",
-    "url": "/fyp/static/css/main.39972da0.chunk.css"
+    "revision": "02103f008c5decfd7b83",
+    "url": "/fyp/static/css/main.1fdd27c3.chunk.css"
   },
   {
     "revision": "ab6e41b51d83ef0adc7e",
     "url": "/fyp/static/js/runtime~main.9af153ce.js"
   },
   {
-    "revision": "f62c3b3960e45c2dfbbf",
-    "url": "/fyp/static/js/2.8166fcd7.chunk.js"
-  },
-  {
-    "revision": "230071328b705f8686cabd26a85ed6a5",
-    "url": "/fyp/static/media/team-4-800x800.23007132.jpg"
+    "revision": "2029a80874cbfee09357",
+    "url": "/fyp/static/js/2.c368c967.chunk.js"
   },
   {
     "revision": "53033970a416368da35794389680266f",
     "url": "/fyp/static/media/team-1-800x800.53033970.jpg"
+  },
+  {
+    "revision": "230071328b705f8686cabd26a85ed6a5",
+    "url": "/fyp/static/media/team-4-800x800.23007132.jpg"
   },
   {
     "revision": "dcfcf3b77210fe85b0abc8260e6fa70e",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "497bb3590e24c9f8b645864bfffc39b8",
     "url": "/fyp/static/media/team-3-800x800.497bb359.jpg"
+  },
+  {
+    "revision": "f38ddea9dedadea03c5d43c596dac13f",
+    "url": "/fyp/static/media/argon-react.f38ddea9.png"
   },
   {
     "revision": "ab904daa548967670847fc3929bf50f4",
@@ -50,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "9378e368a757bd0c7ca556a0258cb527",
     "url": "/fyp/static/media/vue.9378e368.jpg"
-  },
-  {
-    "revision": "f38ddea9dedadea03c5d43c596dac13f",
-    "url": "/fyp/static/media/argon-react.f38ddea9.png"
   },
   {
     "revision": "426439788ec5ba772cdf94057f6f4659",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.381af09a.woff"
   },
   {
-    "revision": "222d8aaf1b3ba97cc815",
-    "url": "/fyp/static/js/main.129c1824.chunk.js"
+    "revision": "02103f008c5decfd7b83",
+    "url": "/fyp/static/js/main.e25993d1.chunk.js"
   },
   {
     "revision": "73fe7f1effbf382f499831a0a9f18626",
@@ -120,12 +120,12 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.b5a61b22.svg"
   },
   {
-    "revision": "70e65a7d34902f2c350816ecfe2f6492",
-    "url": "/fyp/static/media/fa-solid-900.70e65a7d.eot"
-  },
-  {
     "revision": "0079a0ab6bec4da7d6e16f2a2e87cd71",
     "url": "/fyp/static/media/fa-solid-900.0079a0ab.ttf"
+  },
+  {
+    "revision": "70e65a7d34902f2c350816ecfe2f6492",
+    "url": "/fyp/static/media/fa-solid-900.70e65a7d.eot"
   },
   {
     "revision": "b5472631dbace30d549357ec325b9c62",
@@ -156,6 +156,10 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/student.be405129.svg"
   },
   {
+    "revision": "bd33bb0969061231934d1ec4478f5a2c",
+    "url": "/fyp/static/media/ib3.bd33bb09.jpg"
+  },
+  {
     "revision": "91b9bf264296f0bc30940ebc41548f08",
     "url": "/fyp/static/media/diploma.91b9bf26.svg"
   },
@@ -164,7 +168,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "844c79ec89e9c4b1a2bf05b7a425c44e",
+    "revision": "24fa6b78181040c53e56517e4288952b",
     "url": "/fyp/index.html"
   }
 ];
