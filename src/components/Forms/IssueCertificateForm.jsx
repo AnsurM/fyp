@@ -9,10 +9,7 @@ import {
   Col,
   Form,
   FormGroup,
-  Input,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText
+  Input
 } from "reactstrap";
 
 export default class IssueCertificateForm extends React.Component {
@@ -31,6 +28,7 @@ export default class IssueCertificateForm extends React.Component {
 
   onClickSubmit = () => {
     console.log(this.state.data);
+    this.props.onSubmitForm(this.state.data);
   };
 
   onClickResetForm = () => {
@@ -84,7 +82,7 @@ export default class IssueCertificateForm extends React.Component {
                 <FormGroup>
                   <Input
                     id="rollno"
-                    placeholder="Regular"
+                    placeholder="15XXXXXX"
                     type="text"
                     onChange={this.onEnterDetails}
                   />
@@ -109,7 +107,7 @@ export default class IssueCertificateForm extends React.Component {
                 <FormGroup>
                   <Input
                     id="major"
-                    placeholder="name@example.com"
+                    placeholder="BSCS/BSSE"
                     type="email"
                     onChange={this.onEnterDetails}
                   />
@@ -119,8 +117,43 @@ export default class IssueCertificateForm extends React.Component {
                 <FormGroup>
                   <Input
                     id="program"
-                    placeholder="Regular"
+                    placeholder="Morning/Evening"
                     type="text"
+                    onChange={this.onEnterDetails}
+                  />
+                </FormGroup>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col md="1"></Col>
+              <Col md="4" className="mb-2 text-center">
+                CGPA
+              </Col>
+              <Col md="1"></Col>
+              <Col md="1"></Col>
+              <Col md="4" className="mb-2 text-center">
+                Year of Graduation
+              </Col>
+              <Col md="1"></Col>
+            </Row>
+            <Row>
+              <Col md="6">
+                <FormGroup>
+                  <Input
+                    id="cgpa"
+                    placeholder="3.0"
+                    type="number"
+                    onChange={this.onEnterDetails}
+                  />
+                </FormGroup>
+              </Col>
+              <Col md="6">
+                <FormGroup>
+                  <Input
+                    id="year"
+                    placeholder="2024"
+                    type="number"
                     onChange={this.onEnterDetails}
                   />
                 </FormGroup>
@@ -130,10 +163,10 @@ export default class IssueCertificateForm extends React.Component {
             <Row>
               <Col md="3"></Col>
               <Col md="6 text-center">
-                <Button color="info" onClick={this.onClickSubmit}>
+                <Button color="primary" onClick={this.onClickSubmit}>
                   Submit
                 </Button>
-                <Button color="danger" onClick={this.onClickResetForm}>
+                <Button color="" onClick={this.onClickResetForm}>
                   Reset
                 </Button>
               </Col>

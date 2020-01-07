@@ -40,6 +40,8 @@ import {
 // core components
 import Header from "components/Headers/Header.jsx";
 
+// import Header from "components/Headers/IssueHeader.jsx";
+
 class Tables extends React.Component {
   render() {
     return (

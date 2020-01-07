@@ -22,7 +22,8 @@ import Register from "views/examples/Register.jsx";
 import Login from "views/examples/Login.jsx";
 import Tables from "views/examples/Tables.jsx";
 import Icons from "views/examples/Icons.jsx";
-import IssueCertificate from "views/examples/IssueCertificate.jsx";
+import IssueCertificate from "views/examples/IssueCertificate/IssueCertificate.jsx";
+import AllCertificates from "views/examples/AllCertificates/AllCertificates.jsx";
 
 var routesOriginal = [
   {
@@ -90,7 +91,7 @@ var routes = [
     path: "/all-certificates",
     name: "All Certifications",
     icon: "ni ni-bullet-list-67 text-green",
-    component: Tables,
+    component: AllCertificates,
     layout: "/institute"
   },
   {
@@ -103,4 +104,3 @@ var routes = [
 ];
 
 export default routes;
-// export default [];
