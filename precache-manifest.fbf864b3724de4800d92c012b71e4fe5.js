@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1d91f6e68432929bae4b",
+    "revision": "c978656bef57ac17bf8e",
     "url": "/fyp/static/css/main.3ba539a0.chunk.css"
   },
   {
-    "revision": "1d91f6e68432929bae4b",
-    "url": "/fyp/static/js/main.6ab53a65.chunk.js"
+    "revision": "c978656bef57ac17bf8e",
+    "url": "/fyp/static/js/main.3ada24b8.chunk.js"
   },
   {
     "revision": "ab6e41b51d83ef0adc7e",
@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/vue.9378e368.jpg"
   },
   {
+    "revision": "426439788ec5ba772cdf94057f6f4659",
+    "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
+  },
+  {
     "revision": "c1733565b32b585676302d4233c39da8",
     "url": "/fyp/static/media/nucleo-icons.c1733565.eot"
   },
   {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
     "url": "/fyp/static/media/nucleo-icons.2569aaea.woff"
-  },
-  {
-    "revision": "426439788ec5ba772cdf94057f6f4659",
-    "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
@@ -80,12 +80,16 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-brands-400.48461ea4.woff2"
   },
   {
+    "revision": "9b6c8da3c489424e2b3e9c9fb6314b37",
+    "url": "/fyp/static/media/fa-brands-400.9b6c8da3.eot"
+  },
+  {
     "revision": "7b464e274bc331f9a765d765359635a5",
     "url": "/fyp/static/media/fa-brands-400.7b464e27.woff"
   },
   {
-    "revision": "9b6c8da3c489424e2b3e9c9fb6314b37",
-    "url": "/fyp/static/media/fa-brands-400.9b6c8da3.eot"
+    "revision": "947b9537bc0fecc8130d48eb753495a1",
+    "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
   },
   {
     "revision": "7422060ca379ee9939d3b687d072acad",
@@ -98,10 +102,6 @@ self.__precacheManifest = [
   {
     "revision": "381af09a1366b6c2ae65eac5dd6f0588",
     "url": "/fyp/static/media/fa-regular-400.381af09a.woff"
-  },
-  {
-    "revision": "947b9537bc0fecc8130d48eb753495a1",
-    "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
   },
   {
     "revision": "73fe7f1effbf382f499831a0a9f18626",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "aafb12962dbf17ee8cdc5142c44a5a26",
+    "revision": "bc3536d82303c25e63bfc212710a6600",
     "url": "/fyp/index.html"
   }
 ];
