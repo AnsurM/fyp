@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect, HashRouter } from "react-router-dom";
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";
@@ -30,7 +30,7 @@ import InstituteLayout from "layouts/Institute.jsx";
 require("./index.css");
 
 ReactDOM.render(
-  <BrowserRouter basename="/fyp">
+  <HashRouter>
     <Switch>
       <Route
         path="/institute"
@@ -38,11 +38,11 @@ ReactDOM.render(
       />
       <Route path="/admin" render={props => <AdminLayout {...props} />} />
       <Route path="/auth" render={props => <AuthLayout {...props} />} />
-      {/* <Redirect from="/" to="/admin/index" /> */}
+      <Redirect from="/" to="/auth/login" />
       {/* <Redirect from="/*" to="/auth/login/student" /> */}
       {/* <Redirect from="/auth" to="/auth/login/student" /> */}
       <Route render={() => <Redirect to="/auth/login/student" />} />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );

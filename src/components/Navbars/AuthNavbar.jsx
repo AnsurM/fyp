@@ -39,7 +39,7 @@ class AdminNavbar extends React.Component {
           expand="md"
         >
           <Container className="px-4">
-            <NavbarBrand to="/" tag={Link}>
+            <NavbarBrand to="/" tag={Link} onClick={e => e.preventDefault()}>
               <img src={require("assets/img/icons/common/diploma.svg")} />
               <img
                 style={{ marginLeft: "10px" }}
