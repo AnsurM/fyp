@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c978656bef57ac17bf8e",
-    "url": "/fyp/static/css/main.3ba539a0.chunk.css"
+    "revision": "a8724691cb50715c77c4",
+    "url": "/fyp/static/css/main.d726557e.chunk.css"
   },
   {
-    "revision": "c978656bef57ac17bf8e",
-    "url": "/fyp/static/js/main.3ada24b8.chunk.js"
+    "revision": "a8724691cb50715c77c4",
+    "url": "/fyp/static/js/main.d9c8b6af.chunk.js"
   },
   {
     "revision": "ab6e41b51d83ef0adc7e",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/vue.9378e368.jpg"
   },
   {
-    "revision": "426439788ec5ba772cdf94057f6f4659",
-    "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
-  },
-  {
     "revision": "c1733565b32b585676302d4233c39da8",
     "url": "/fyp/static/media/nucleo-icons.c1733565.eot"
+  },
+  {
+    "revision": "426439788ec5ba772cdf94057f6f4659",
+    "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
   },
   {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
@@ -112,12 +112,12 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.b5a61b22.svg"
   },
   {
-    "revision": "70e65a7d34902f2c350816ecfe2f6492",
-    "url": "/fyp/static/media/fa-solid-900.70e65a7d.eot"
-  },
-  {
     "revision": "14a08198ec7d1eb96d515362293fed36",
     "url": "/fyp/static/media/fa-solid-900.14a08198.woff2"
+  },
+  {
+    "revision": "70e65a7d34902f2c350816ecfe2f6492",
+    "url": "/fyp/static/media/fa-solid-900.70e65a7d.eot"
   },
   {
     "revision": "815694de1120d6c1e9d1f0895ee81056",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "bc3536d82303c25e63bfc212710a6600",
+    "revision": "c3a84c738f3d4c72a2373e55052145f9",
     "url": "/fyp/index.html"
   }
 ];
