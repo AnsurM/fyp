@@ -40,7 +40,7 @@
     margin-top: -30rem !important;
   }
   .all-cert-margin {
-    margin-top: -30rem !important;
+    margin-top: -32rem !important;
   }
 }
 @media (min-width: 1600px) {
@@ -53,7 +53,7 @@
 }
 @media (min-width: 1900px) {
   .issue-form-margin {
-    margin-top: -15rem !important;
+    margin-top: -35rem !important;
   }
   .all-cert-margin {
     margin-top: -45rem !important;
