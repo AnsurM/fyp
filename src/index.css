@@ -6,6 +6,14 @@
   height: 100px !important;
 }
 
+.issue-form-margin {
+  margin-top: 0rem !important;
+}
+
+.all-cert-margin {
+  margin-top: 0rem !important;
+}
+
 .mt--11 {
   margin-top: -11rem !important;
 }
@@ -16,4 +24,38 @@
 
 .bg-beige {
   background-color: beige !important;
+}
+
+@media (min-width: 1000px) {
+  .issue-form-margin {
+    margin-top: -29.5rem !important;
+  }
+  .all-cert-margin {
+    margin-top: -27rem !important;
+  }
+}
+
+@media (min-width: 1300px) {
+  .issue-form-margin {
+    margin-top: -30rem !important;
+  }
+  .all-cert-margin {
+    margin-top: -30rem !important;
+  }
+}
+@media (min-width: 1600px) {
+  .issue-form-margin {
+    margin-top: -30rem !important;
+  }
+  .all-cert-margin {
+    margin-top: -37rem !important;
+  }
+}
+@media (min-width: 1900px) {
+  .issue-form-margin {
+    margin-top: -15rem !important;
+  }
+  .all-cert-margin {
+    margin-top: -45rem !important;
+  }
 }

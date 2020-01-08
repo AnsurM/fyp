@@ -26,11 +26,13 @@ export default class IssueCertificate extends Component {
       <>
         <Header />
         {/* Page content */}
-        <Container className="mt--36" fluid>
+        <Container fluid>
           <Row className="mt--5">
             <Col xl="3"></Col>
             <Col xl="6">
-              <IssueForm onSubmitForm={this.onSubmitForm} />
+              <div className="issue-form-margin">
+                <IssueForm onSubmitForm={this.onSubmitForm} />
+              </div>
             </Col>
             <Col xl="3"></Col>
           </Row>

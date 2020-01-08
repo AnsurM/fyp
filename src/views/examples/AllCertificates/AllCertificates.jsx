@@ -72,7 +72,7 @@ export default class AllCertificates extends Component {
       <>
         <Header />
         {/* Page content */}
-        <Container className="mt--36" fluid>
+        <Container className="all-cert-margin" fluid>
           <Row className="mt--5">
             {/* <Col xl="1"></Col> */}
             <Col xl="12">
