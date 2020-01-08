@@ -1,5 +1,5 @@
 {
-  "main.css": "/fyp/static/css/main.d726557e.chunk.css",
+  "main.css": "/fyp/static/css/main.f5e61888.chunk.css",
   "main.js": "/fyp/static/js/main.d9c8b6af.chunk.js",
   "main.js.map": "/fyp/static/js/main.d9c8b6af.chunk.js.map",
   "runtime~main.js": "/fyp/static/js/runtime~main.9af153ce.js",
@@ -7,9 +7,9 @@
   "static/js/2.a00f2480.chunk.js": "/fyp/static/js/2.a00f2480.chunk.js",
   "static/js/2.a00f2480.chunk.js.map": "/fyp/static/js/2.a00f2480.chunk.js.map",
   "index.html": "/fyp/index.html",
-  "precache-manifest.c1d8ae327a884b419e9bfa8dae04c91e.js": "/fyp/precache-manifest.c1d8ae327a884b419e9bfa8dae04c91e.js",
+  "precache-manifest.651812f3e3bc2fb9ba7f19d536d21cfe.js": "/fyp/precache-manifest.651812f3e3bc2fb9ba7f19d536d21cfe.js",
   "service-worker.js": "/fyp/service-worker.js",
-  "static/css/main.d726557e.chunk.css.map": "/fyp/static/css/main.d726557e.chunk.css.map",
+  "static/css/main.f5e61888.chunk.css.map": "/fyp/static/css/main.f5e61888.chunk.css.map",
   "static/media/angular.jpg": "/fyp/static/media/angular.368685db.jpg",
   "static/media/argon-react.png": "/fyp/static/media/argon-react.f38ddea9.png",
   "static/media/bootstrap.jpg": "/fyp/static/media/bootstrap.ab904daa.jpg",
