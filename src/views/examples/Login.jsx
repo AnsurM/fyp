@@ -33,10 +33,8 @@ import {
   Col
 } from "reactstrap";
 
-const users = {
-  admins: [{ username: "admin@uok.edu.pk", password: "admin123" }],
-  students: { b15101134: { password: "ansur" } }
-};
+import { api, adminRoutes } from "../../axios";
+import Swal from "sweetalert2";
 
 class Login extends React.Component {
   state = {
@@ -54,18 +52,37 @@ class Login extends React.Component {
 
   onSubmitCredentials = e => {
     e.preventDefault();
-    let { credentials } = this.state;
+    let { credentials, userType } = this.state;
 
-    let user = users.admins.find(user => user.username == credentials.email);
-    if (user != undefined) {
-      if (user.password == credentials.password) {
-        this.props.history.push("/institute/issue-certificate");
-        // alert("Logging in...");
-      } else {
-        alert("Invalid login data...");
-      }
-    } else {
-      alert("Cannot find any such user...");
+    // let user = users.admins.find(user => user.username == credentials.email);
+    // if (user != undefined) {
+    //   if (user.password == credentials.password) {
+    //     this.props.history.push("/institute/issue-certificate");
+    //     // alert("Logging in...");
+    //   } else {
+    //     alert("Invalid login data...");
+    //   }
+    // } else {
+    //   alert("Cannot find any such user...");
+    // }
+
+    if (userType == "institute") {
+      let { email: username, password } = credentials;
+      api
+        .post(adminRoutes.login, { username, password })
+        .then(res => {
+          if (res.data.message == "authorized") {
+            this.props.history.push("/institute/issue-certificate");
+          }
+        })
+        .catch(err => {
+          Swal.fire(
+            "Error logging in.",
+            "Please check your credentials and try again.",
+            "error"
+          );
+          console.log(err.resp);
+        });
     }
   };
 

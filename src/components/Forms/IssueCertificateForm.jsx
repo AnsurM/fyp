@@ -26,8 +26,8 @@ export default class IssueCertificateForm extends React.Component {
     this.setState({ data });
   };
 
-  onClickSubmit = () => {
-    console.log(this.state.data);
+  onClickSubmit = e => {
+    e.preventDefault();
     this.props.onSubmitForm(this.state.data);
   };
 
@@ -71,8 +71,9 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="fullname"
+                    id="FullName"
                     placeholder="Full Name"
+                    required
                     type="text"
                     onChange={this.onEnterDetails}
                   />
@@ -81,8 +82,9 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="rollno"
-                    placeholder="15XXXXXX"
+                    id="RollNumber"
+                    required
+                    placeholder="B15XXXXXX"
                     type="text"
                     onChange={this.onEnterDetails}
                   />
@@ -106,7 +108,8 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="major"
+                    id="MajorDepartment"
+                    required
                     placeholder="BSCS/BSSE"
                     type="email"
                     onChange={this.onEnterDetails}
@@ -116,7 +119,8 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="program"
+                    id="Program"
+                    required
                     placeholder="Morning/Evening"
                     type="text"
                     onChange={this.onEnterDetails}
@@ -141,7 +145,8 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="cgpa"
+                    id="CGPA"
+                    required
                     placeholder="3.0"
                     type="number"
                     onChange={this.onEnterDetails}
@@ -151,7 +156,8 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="year"
+                    id="YOG"
+                    required
                     placeholder="2024"
                     type="number"
                     onChange={this.onEnterDetails}
@@ -163,7 +169,11 @@ export default class IssueCertificateForm extends React.Component {
             <Row>
               <Col md="3"></Col>
               <Col md="6 text-center">
-                <Button color="primary" onClick={this.onClickSubmit}>
+                <Button
+                  type="submit"
+                  color="primary"
+                  onClick={this.onClickSubmit}
+                >
                   Submit
                 </Button>
                 <Button color="" onClick={this.onClickResetForm}>

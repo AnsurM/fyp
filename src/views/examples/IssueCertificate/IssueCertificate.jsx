@@ -6,19 +6,22 @@ import { Container, Row, Col } from "reactstrap";
 import Header from "components/Headers/IssueHeader.jsx";
 import IssueForm from "components/Forms/IssueCertificateForm.jsx";
 
+import { api, adminRoutes } from "../../../axios";
+import Swal from "sweetalert2";
+
 export default class IssueCertificate extends Component {
   onSubmitForm = data => {
     console.log(data);
-    let myOldData = localStorage.getItem("results")
-      ? JSON.parse(localStorage.getItem("results"))
-      : [];
-    if (myOldData) {
-      myOldData.push(data);
-    }
-    console.log(myOldData);
-    if (myOldData.length) {
-      localStorage.setItem("results", JSON.stringify(myOldData));
-    }
+    api
+      .post(adminRoutes.issueCertificate, { ...data })
+      .then(res => {
+        console.log(res);
+        Swal.fire("Success", "Certificate successfully issued.", "success");
+      })
+      .catch(err => {
+        console.log(err);
+        Swal.fire("Error", "Issue Certificate Failed.", "error");
+      });
   };
 
   render() {

@@ -7,64 +7,58 @@ import Header from "components/Headers/IssueHeader.jsx";
 import Table from "components/Tables/Datatable.jsx";
 // import MDTable from "components/Tables/MDDatatable.jsx";
 
+import { api, adminRoutes } from "../../../axios";
+
 export default class AllCertificates extends Component {
   state = {
-    data: {}
-  };
-
-  componentDidMount() {
-    let data = {
+    data: {
       columns: [
         {
-          id: "rollno",
+          id: "RollNumber",
           label: "Roll No",
           colSize: "30px"
         },
         {
-          id: "fullname",
+          id: "FullName",
           label: "Full Name",
           colSize: "50px"
         },
         {
-          id: "major",
+          id: "MajorDepartment",
           label: "Major",
           colSize: "40px"
         },
         {
-          id: "program",
+          id: "Program",
           label: "Program",
           colSize: "40px"
         },
         {
-          id: "cgpa",
+          id: "CGPA",
           label: "CGPA",
           colSize: "40px"
         },
         {
-          id: "year",
+          id: "YOG",
           label: "Year",
           colSize: "40px"
         }
       ],
-      rows: [
-        {
-          cgpa: "3.0",
-          fullname: "Syed Ansur Mehdi",
-          major: "BSCS",
-          program: "Morning",
-          rollno: "B15101134",
-          year: "2020"
-        }
-      ]
-    };
-
-    let myTempData = localStorage.getItem("results")
-      ? JSON.parse(localStorage.getItem("results"))
-      : [];
-    if (myTempData.length) {
-      data.rows = myTempData;
+      rows: []
     }
-    this.setState({ data });
+  };
+
+  getCertificatesFromBackend = () => {
+    let { data } = this.state;
+    let that = this;
+    api.get(adminRoutes.allCertificates).then(res => {
+      data.rows = res.data.data;
+      this.setState({ data });
+    });
+  };
+
+  componentDidMount() {
+    this.getCertificatesFromBackend();
   }
 
   render() {
