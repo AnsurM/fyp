@@ -38,7 +38,7 @@ export default class IssueCertificateForm extends React.Component {
     keys.forEach(key => {
       document.getElementById(key).value = "";
     });
-    document.getElementById("fullname").focus();
+    document.getElementById("FullName").focus();
   };
 
   render() {

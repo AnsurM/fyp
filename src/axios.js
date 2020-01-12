@@ -13,4 +13,10 @@ export const adminRoutes = {
   issueCertificate: "/admin/certificates/issue"
 };
 
+export const studentRoutes = {
+  login: "/student/signin",
+  signup: "/student/signup",
+  getCertificate: "/student/certificate?rollnumber="
+};
+
 // module.exports = { api, adminRoutes };

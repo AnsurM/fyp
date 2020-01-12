@@ -26,12 +26,24 @@
   background-color: beige !important;
 }
 
+.degree-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.degree-image {
+  margin-top: -6rem !important;
+}
+
 @media (min-width: 1000px) {
   .issue-form-margin {
     margin-top: -29.5rem !important;
   }
   .all-cert-margin {
     margin-top: -27rem !important;
+  }
+  .degree-image {
+    margin-top: -18rem !important;
   }
 }
 
@@ -42,6 +54,9 @@
   .all-cert-margin {
     margin-top: -32rem !important;
   }
+  .degree-image {
+    margin-top: -11rem !important;
+  }
 }
 @media (min-width: 1600px) {
   .issue-form-margin {
@@ -50,6 +65,9 @@
   .all-cert-margin {
     margin-top: -37rem !important;
   }
+  .degree-image {
+    margin-top: -6rem !important;
+  }
 }
 @media (min-width: 1900px) {
   .issue-form-margin {
@@ -57,5 +75,8 @@
   }
   .all-cert-margin {
     margin-top: -45rem !important;
+  }
+  .degree-image {
+    margin-top: 0rem !important;
   }
 }

@@ -24,6 +24,7 @@ import Tables from "views/examples/Tables.jsx";
 import Icons from "views/examples/Icons.jsx";
 import IssueCertificate from "views/examples/IssueCertificate/IssueCertificate.jsx";
 import AllCertificates from "views/examples/AllCertificates/AllCertificates.jsx";
+import SingleCertificate from "views/examples/SingleCertificate/SingleCertificate.jsx";
 
 var routesOriginal = [
   {
@@ -100,6 +101,13 @@ var routes = [
     icon: "ni ni-bullet-list-67 text-red",
     component: IssueCertificate,
     layout: "/institute"
+  },
+  {
+    path: "/certificate",
+    name: "My Certificate",
+    icon: "ni ni-bullet-list-67 text-green",
+    component: SingleCertificate,
+    layout: "/student"
   }
 ];
 

@@ -26,6 +26,7 @@ import "assets/scss/argon-dashboard-react.scss";
 import AdminLayout from "layouts/Admin.jsx";
 import AuthLayout from "layouts/Auth.jsx";
 import InstituteLayout from "layouts/Institute.jsx";
+import StudentLayout from "layouts/Student.jsx";
 
 require("./index.css");
 
@@ -36,6 +37,7 @@ ReactDOM.render(
         path="/institute"
         render={props => <InstituteLayout {...props} />}
       />
+      <Route path="/student" render={props => <StudentLayout {...props} />} />
       <Route path="/admin" render={props => <AdminLayout {...props} />} />
       <Route path="/auth" render={props => <AuthLayout {...props} />} />
       <Redirect from="/" to="/auth/login" />
