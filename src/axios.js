@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://fyp-backend.herokuapp.com"
+  // baseURL: "https://fyp-backend.herokuapp.com"
+  baseURL: "http://localhost:4000"
   /* other custom settings */
 });
 
@@ -18,5 +19,3 @@ export const studentRoutes = {
   signup: "/student/signup",
   getCertificate: "/student/certificate?rollnumber="
 };
-
-// module.exports = { api, adminRoutes };

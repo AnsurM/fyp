@@ -148,6 +148,8 @@ export default class IssueCertificateForm extends React.Component {
                     id="CGPA"
                     required
                     placeholder="3.0"
+                    min={1.8}
+                    min={4.0}
                     type="number"
                     onChange={this.onEnterDetails}
                   />
@@ -159,6 +161,8 @@ export default class IssueCertificateForm extends React.Component {
                     id="YOG"
                     required
                     placeholder="2024"
+                    min={1896}
+                    min={2020}
                     type="number"
                     onChange={this.onEnterDetails}
                   />
@@ -182,6 +186,11 @@ export default class IssueCertificateForm extends React.Component {
               </Col>
               <Col md="3"></Col>
             </Row>
+            {this.props.err && (
+              <p style={{ color: "red", paddingTop: "10px" }}>
+                {this.props.err.toString().replace("ValidationError: ", "")}
+              </p>
+            )}
           </Form>
         </CardBody>
       </Card>
