@@ -31,20 +31,29 @@ import StudentLayout from "layouts/Student.jsx";
 require("./index.css");
 
 ReactDOM.render(
-  <HashRouter>
-    <Switch>
-      <Route
-        path="/institute"
-        render={props => <InstituteLayout {...props} />}
+  <>
+    <div id="loader">
+      <img
+        id="loader-image"
+        src={require("./assets/img/icons/common/UoK.png")}
+        alt="loader"
       />
-      <Route path="/student" render={props => <StudentLayout {...props} />} />
-      <Route path="/admin" render={props => <AdminLayout {...props} />} />
-      <Route path="/auth" render={props => <AuthLayout {...props} />} />
-      <Redirect from="/" to="/auth/login" />
-      {/* <Redirect from="/*" to="/auth/login/student" /> */}
-      {/* <Redirect from="/auth" to="/auth/login/student" /> */}
-      <Route render={() => <Redirect to="/auth/login/student" />} />
-    </Switch>
-  </HashRouter>,
+    </div>
+    <HashRouter>
+      <Switch>
+        <Route
+          path="/institute"
+          render={props => <InstituteLayout {...props} />}
+        />
+        <Route path="/student" render={props => <StudentLayout {...props} />} />
+        <Route path="/admin" render={props => <AdminLayout {...props} />} />
+        <Route path="/auth" render={props => <AuthLayout {...props} />} />
+        <Redirect from="/" to="/auth/login" />
+        {/* <Redirect from="/*" to="/auth/login/student" /> */}
+        {/* <Redirect from="/auth" to="/auth/login/student" /> */}
+        <Route render={() => <Redirect to="/auth/login/student" />} />
+      </Switch>
+    </HashRouter>
+  </>,
   document.getElementById("root")
 );

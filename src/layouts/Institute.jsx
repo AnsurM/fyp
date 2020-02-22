@@ -67,7 +67,7 @@ class Admin extends React.Component {
           {...this.props}
           routes={routes}
           logo={{
-            innerLink: "/institute",
+            innerLink: "/institute/issue-certificate",
             imgSrc: require("assets/img/brand/argon-react.png"),
             imgAlt: "..."
           }}

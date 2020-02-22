@@ -6,6 +6,42 @@ export const api = axios.create({
   /* other custom settings */
 });
 
+var numberOfAjaxCAllPending = 0;
+
+// Add a request interceptor
+api.interceptors.request.use(
+  function(config) {
+    numberOfAjaxCAllPending++;
+    // show loader
+    document.getElementById("loader").style.display = "block";
+    return config;
+  },
+  function(error) {
+    return Promise.reject(error);
+  }
+);
+
+// Add a response interceptor
+api.interceptors.response.use(
+  function(response) {
+    numberOfAjaxCAllPending--;
+
+    if (numberOfAjaxCAllPending == 0) {
+      //hide loader
+      document.getElementById("loader").style.display = "none";
+    }
+    return response;
+  },
+  function(error) {
+    numberOfAjaxCAllPending--;
+    if (numberOfAjaxCAllPending == 0) {
+      //hide loader
+      document.getElementById("loader").style.display = "none";
+    }
+    return Promise.reject(error);
+  }
+);
+
 export const adminRoutes = {
   issue: "",
   login: "/admin/signin",
