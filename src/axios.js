@@ -14,11 +14,7 @@ api.interceptors.request.use(
     console.log(window.location.href);
     numberOfAjaxCAllPending++;
     // show loader
-    setTimeout(() => {
-      if (!window.location.href.includes("login")) {
-        document.getElementById("myLoader").style.display = "block";
-      }
-    }, 300);
+    document.getElementById("myLoader").style.display = "block";
     return config;
   },
   function(error) {
