@@ -7,7 +7,7 @@
 }
 
 .issue-form-margin {
-  margin-top: 0rem !important;
+  margin-top: 5rem !important;
 }
 
 .all-cert-margin {
@@ -31,13 +31,60 @@
   text-align: center;
 }
 
+.degree-box {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.degree-box h1 {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  right: 0;
+  text-align: center;
+  /* width: 68%; /* Set the width of the positioned div */
+  font-size: 1rem;
+}
+
+.degree-box .rollnumber {
+  left: -54%;
+  top: -13%; /* Adjust this value to move the positioned div up and down */
+}
+
+.degree-box .name {
+  left: -33%;
+  top: 35%;
+}
+
+.degree-box .fathers-name {
+  left: -33%;
+  top: 39%;
+}
+
+.degree-box .graduation-left {
+  top: 60.5%;
+  left: -39%;
+  font-size: 0.9rem;
+}
+
+.degree-box .graduation-right {
+  top: 60.5%;
+  left: -4%;
+  font-size: 0.9rem;
+}
+
+.degree-box .grad-class {
+  top: 63.5%;
+  left: -20%;
+}
+
 .degree-image {
   margin-top: -6rem !important;
 }
 
 @media (min-width: 1000px) {
   .issue-form-margin {
-    margin-top: -29.5rem !important;
+    margin-top: -34.5rem !important;
   }
   .all-cert-margin {
     margin-top: -27rem !important;
@@ -49,7 +96,7 @@
 
 @media (min-width: 1300px) {
   .issue-form-margin {
-    margin-top: -30rem !important;
+    margin-top: -35rem !important;
   }
   .all-cert-margin {
     margin-top: -32rem !important;
@@ -60,7 +107,7 @@
 }
 @media (min-width: 1600px) {
   .issue-form-margin {
-    margin-top: -30rem !important;
+    margin-top: -35rem !important;
   }
   .all-cert-margin {
     margin-top: -37rem !important;
@@ -71,7 +118,7 @@
 }
 @media (min-width: 1900px) {
   .issue-form-margin {
-    margin-top: -35rem !important;
+    margin-top: -40rem !important;
   }
   .all-cert-margin {
     margin-top: -45rem !important;

@@ -73,10 +73,10 @@ class Login extends React.Component {
     } else if (userType == "student") {
       let { rollnumber } = credentials;
       api
-        .post(studentRoutes.login, { rollnumber })
+        .get(studentRoutes.getCertificate + rollnumber)
         .then(res => {
-          if (res.data.message == "authorized") {
-            // Swal.fire("Success", "Successfully logged in.", "success");
+          if (res.data.data) {
+            localStorage.setItem("rollnumber", rollnumber);
             this.props.history.push(`/student/certificate?id=${rollnumber}`);
           } else {
             Swal.fire(

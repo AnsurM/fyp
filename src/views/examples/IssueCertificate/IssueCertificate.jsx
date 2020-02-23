@@ -19,6 +19,9 @@ const schema = Joi.object({
   FullName: Joi.string()
     .min(2)
     .required(),
+  FathersName: Joi.string()
+    .min(2)
+    .required(),
   MajorDepartment: Joi.string()
     .valid("BSCS", "BSSE")
     .required(),

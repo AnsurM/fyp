@@ -11,7 +11,7 @@ var numberOfAjaxCAllPending = 0;
 // Add a request interceptor
 api.interceptors.request.use(
   function(config) {
-    console.log(window.location.href);
+    // console.log(window.location.href);
     numberOfAjaxCAllPending++;
     // show loader
     document.getElementById("myLoader").style.display = "block";

@@ -24,6 +24,11 @@ export default class AllCertificates extends Component {
           colSize: "50px"
         },
         {
+          id: "FathersName",
+          label: "Fathers Name",
+          colSize: "50px"
+        },
+        {
           id: "MajorDepartment",
           label: "Major",
           colSize: "40px"

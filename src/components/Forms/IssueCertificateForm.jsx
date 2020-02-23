@@ -63,7 +63,7 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="1"></Col>
               <Col md="1"></Col>
               <Col md="4" className="mb-2 text-center">
-                Roll Number
+                Fathers Name
               </Col>
               <Col md="1"></Col>
             </Row>
@@ -82,9 +82,9 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="RollNumber"
+                    id="FathersName"
+                    placeholder="Fathers Name"
                     required
-                    placeholder="B15XXXXXX"
                     type="text"
                     onChange={this.onEnterDetails}
                   />
@@ -95,12 +95,12 @@ export default class IssueCertificateForm extends React.Component {
             <Row>
               <Col md="1"></Col>
               <Col md="4" className="mb-2 text-center">
-                Major Department
+                Roll Number
               </Col>
               <Col md="1"></Col>
               <Col md="1"></Col>
               <Col md="4" className="mb-2 text-center">
-                Program
+                Major Department
               </Col>
               <Col md="1"></Col>
             </Row>
@@ -108,14 +108,40 @@ export default class IssueCertificateForm extends React.Component {
               <Col md="6">
                 <FormGroup>
                   <Input
-                    id="MajorDepartment"
+                    id="RollNumber"
                     required
-                    placeholder="BSCS/BSSE"
-                    type="email"
+                    placeholder="B15XXXXXX"
+                    type="text"
                     onChange={this.onEnterDetails}
                   />
                 </FormGroup>
               </Col>
+              <Col md="6">
+                <FormGroup>
+                  <Input
+                    id="MajorDepartment"
+                    required
+                    placeholder="BSCS/BSSE"
+                    type="text"
+                    onChange={this.onEnterDetails}
+                  />
+                </FormGroup>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col md="1"></Col>
+              <Col md="4" className="mb-2 text-center">
+                Program
+              </Col>
+              <Col md="1"></Col>
+              <Col md="1"></Col>
+              <Col md="4" className="mb-2 text-center">
+                CGPA
+              </Col>
+              <Col md="1"></Col>
+            </Row>
+            <Row>
               <Col md="6">
                 <FormGroup>
                   <Input
@@ -127,21 +153,6 @@ export default class IssueCertificateForm extends React.Component {
                   />
                 </FormGroup>
               </Col>
-            </Row>
-
-            <Row>
-              <Col md="1"></Col>
-              <Col md="4" className="mb-2 text-center">
-                CGPA
-              </Col>
-              <Col md="1"></Col>
-              <Col md="1"></Col>
-              <Col md="4" className="mb-2 text-center">
-                Year of Graduation
-              </Col>
-              <Col md="1"></Col>
-            </Row>
-            <Row>
               <Col md="6">
                 <FormGroup>
                   <Input
@@ -155,6 +166,17 @@ export default class IssueCertificateForm extends React.Component {
                   />
                 </FormGroup>
               </Col>
+            </Row>
+
+            <Row>
+              <Col md="2"></Col>
+              <Col md="8" className="mb-2 text-center">
+                Year of Graduation
+              </Col>
+              <Col md="2"></Col>
+            </Row>
+            <Row>
+              <Col md="3" />
               <Col md="6">
                 <FormGroup>
                   <Input
@@ -168,6 +190,7 @@ export default class IssueCertificateForm extends React.Component {
                   />
                 </FormGroup>
               </Col>
+              <Col md="3" />
             </Row>
 
             <Row>
