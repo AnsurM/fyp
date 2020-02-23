@@ -23,11 +23,11 @@ export default class AllCertificates extends Component {
           label: "Full Name",
           colSize: "50px"
         },
-        {
-          id: "FathersName",
-          label: "Fathers Name",
-          colSize: "50px"
-        },
+        // {
+        //   id: "FathersName",
+        //   label: "Fathers Name",
+        //   colSize: "50px"
+        // },
         {
           id: "MajorDepartment",
           label: "Major",

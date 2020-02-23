@@ -89,8 +89,47 @@
   .all-cert-margin {
     margin-top: -27rem !important;
   }
+
+  .degree-container {
+    margin: 0 auto;
+    margin-top: 210px;
+    text-align: center;
+  }
+
   .degree-image {
     margin-top: -18rem !important;
+  }
+
+  .degree-box .rollnumber {
+    left: -54%;
+    top: -69%; /* Adjust this value to move the positioned div up and down */
+  }
+
+  .degree-box .name {
+    left: -33%;
+    top: 4%;
+  }
+
+  .degree-box .fathers-name {
+    left: -33%;
+    top: 9%;
+  }
+
+  .degree-box .graduation-left {
+    top: 41%;
+    left: -39%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .graduation-right {
+    top: 41%;
+    left: -4%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .grad-class {
+    top: 45.5%;
+    left: -20%;
   }
 }
 
@@ -101,8 +140,47 @@
   .all-cert-margin {
     margin-top: -32rem !important;
   }
+
+  .degree-container {
+    margin: 0 auto;
+    margin-top: 135px;
+    text-align: center;
+  }
+
   .degree-image {
     margin-top: -11rem !important;
+  }
+
+  .degree-box .rollnumber {
+    left: -54%;
+    top: -31%; /* Adjust this value to move the positioned div up and down */
+  }
+
+  .degree-box .name {
+    left: -33%;
+    top: 25%;
+  }
+
+  .degree-box .fathers-name {
+    left: -33%;
+    top: 29%;
+  }
+
+  .degree-box .graduation-left {
+    top: 54.5%;
+    left: -39%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .graduation-right {
+    top: 54.5%;
+    left: -4%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .grad-class {
+    top: 57.5%;
+    left: -20%;
   }
 }
 @media (min-width: 1600px) {
@@ -112,8 +190,47 @@
   .all-cert-margin {
     margin-top: -37rem !important;
   }
+
+  .degree-container {
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+  }
+
   .degree-image {
     margin-top: -6rem !important;
+  }
+
+  .degree-box .rollnumber {
+    left: -54%;
+    top: -13%; /* Adjust this value to move the positioned div up and down */
+  }
+
+  .degree-box .name {
+    left: -33%;
+    top: 35%;
+  }
+
+  .degree-box .fathers-name {
+    left: -33%;
+    top: 39%;
+  }
+
+  .degree-box .graduation-left {
+    top: 60.5%;
+    left: -39%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .graduation-right {
+    top: 60.5%;
+    left: -4%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .grad-class {
+    top: 63.5%;
+    left: -20%;
   }
 }
 @media (min-width: 1900px) {
@@ -123,8 +240,47 @@
   .all-cert-margin {
     margin-top: -45rem !important;
   }
+
+  .degree-container {
+    margin: 0 auto;
+    margin-top: -50px;
+    text-align: center;
+  }
+
   .degree-image {
     margin-top: 0rem !important;
+  }
+
+  .degree-box .rollnumber {
+    left: -54%;
+    top: 3%; /* Adjust this value to move the positioned div up and down */
+  }
+
+  .degree-box .name {
+    left: -33%;
+    top: 44%;
+  }
+
+  .degree-box .fathers-name {
+    left: -33%;
+    top: 48%;
+  }
+
+  .degree-box .graduation-left {
+    top: 66%;
+    left: -39%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .graduation-right {
+    top: 66%;
+    left: -4%;
+    font-size: 0.9rem;
+  }
+
+  .degree-box .grad-class {
+    top: 68.5%;
+    left: -20%;
   }
 }
 
