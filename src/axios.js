@@ -13,7 +13,9 @@ api.interceptors.request.use(
   function(config) {
     numberOfAjaxCAllPending++;
     // show loader
-    document.getElementById("loader").style.display = "block";
+    if (!window.location.href.includes("login")) {
+      document.getElementById("loader").style.display = "block";
+    }
     return config;
   },
   function(error) {
@@ -29,6 +31,7 @@ api.interceptors.response.use(
     if (numberOfAjaxCAllPending == 0) {
       //hide loader
       document.getElementById("loader").style.display = "none";
+      alert("ended");
     }
     return response;
   },
@@ -37,6 +40,7 @@ api.interceptors.response.use(
     if (numberOfAjaxCAllPending == 0) {
       //hide loader
       document.getElementById("loader").style.display = "none";
+      alert("ended");
     }
     return Promise.reject(error);
   }
