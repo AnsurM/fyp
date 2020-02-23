@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4a78dd333cce5ceac8e6",
-    "url": "/fyp/static/css/main.f157fdd8.chunk.css"
+    "revision": "39691d776eb1d63b3e5b",
+    "url": "/fyp/static/css/main.0935cf7a.chunk.css"
   },
   {
-    "revision": "4a78dd333cce5ceac8e6",
-    "url": "/fyp/static/js/main.cc62f76d.chunk.js"
+    "revision": "39691d776eb1d63b3e5b",
+    "url": "/fyp/static/js/main.186a73bb.chunk.js"
   },
   {
     "revision": "ab6e41b51d83ef0adc7e",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/vue.9378e368.jpg"
   },
   {
+    "revision": "c1733565b32b585676302d4233c39da8",
+    "url": "/fyp/static/media/nucleo-icons.c1733565.eot"
+  },
+  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
   },
@@ -68,44 +72,40 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/nucleo-icons.2569aaea.woff"
   },
   {
-    "revision": "c1733565b32b585676302d4233c39da8",
-    "url": "/fyp/static/media/nucleo-icons.c1733565.eot"
+    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
+    "url": "/fyp/static/media/nucleo-icons.0b8a30b1.svg"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "/fyp/static/media/nucleo-icons.f82ec6ba.ttf"
   },
   {
-    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
-    "url": "/fyp/static/media/nucleo-icons.0b8a30b1.svg"
+    "revision": "9b6c8da3c489424e2b3e9c9fb6314b37",
+    "url": "/fyp/static/media/fa-brands-400.9b6c8da3.eot"
   },
   {
     "revision": "48461ea4e797c9774dabb4a0440d2f56",
     "url": "/fyp/static/media/fa-brands-400.48461ea4.woff2"
   },
   {
-    "revision": "7b464e274bc331f9a765d765359635a5",
-    "url": "/fyp/static/media/fa-brands-400.7b464e27.woff"
-  },
-  {
-    "revision": "9b6c8da3c489424e2b3e9c9fb6314b37",
-    "url": "/fyp/static/media/fa-brands-400.9b6c8da3.eot"
-  },
-  {
     "revision": "947b9537bc0fecc8130d48eb753495a1",
     "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
+  },
+  {
+    "revision": "7b464e274bc331f9a765d765359635a5",
+    "url": "/fyp/static/media/fa-brands-400.7b464e27.woff"
   },
   {
     "revision": "7422060ca379ee9939d3b687d072acad",
     "url": "/fyp/static/media/fa-regular-400.7422060c.eot"
   },
   {
-    "revision": "949a2b066ec37f5a384712fc7beaf2f1",
-    "url": "/fyp/static/media/fa-regular-400.949a2b06.woff2"
-  },
-  {
     "revision": "381af09a1366b6c2ae65eac5dd6f0588",
     "url": "/fyp/static/media/fa-regular-400.381af09a.woff"
+  },
+  {
+    "revision": "949a2b066ec37f5a384712fc7beaf2f1",
+    "url": "/fyp/static/media/fa-regular-400.949a2b06.woff2"
   },
   {
     "revision": "73fe7f1effbf382f499831a0a9f18626",
@@ -116,12 +116,12 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.b5a61b22.svg"
   },
   {
-    "revision": "70e65a7d34902f2c350816ecfe2f6492",
-    "url": "/fyp/static/media/fa-solid-900.70e65a7d.eot"
-  },
-  {
     "revision": "14a08198ec7d1eb96d515362293fed36",
     "url": "/fyp/static/media/fa-solid-900.14a08198.woff2"
+  },
+  {
+    "revision": "70e65a7d34902f2c350816ecfe2f6492",
+    "url": "/fyp/static/media/fa-solid-900.70e65a7d.eot"
   },
   {
     "revision": "815694de1120d6c1e9d1f0895ee81056",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "30608d8a1d9565dff7c60cd3f4786bae",
+    "revision": "e416d28dcb88b9f9c10ebb2e11bef0e3",
     "url": "/fyp/index.html"
   }
 ];
