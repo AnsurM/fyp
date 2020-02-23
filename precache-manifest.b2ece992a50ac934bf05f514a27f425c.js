@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0dd77e154654669b281f",
-    "url": "/fyp/static/css/main.2ab0c903.chunk.css"
+    "revision": "e99c4869381a62ef8dfc",
+    "url": "/fyp/static/css/main.46d51561.chunk.css"
   },
   {
-    "revision": "0dd77e154654669b281f",
-    "url": "/fyp/static/js/main.99b2c295.chunk.js"
+    "revision": "e99c4869381a62ef8dfc",
+    "url": "/fyp/static/js/main.1b86dd53.chunk.js"
   },
   {
     "revision": "ab6e41b51d83ef0adc7e",
@@ -68,10 +68,6 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/nucleo-icons.2569aaea.woff"
   },
   {
-    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
-    "url": "/fyp/static/media/nucleo-icons.0b8a30b1.svg"
-  },
-  {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "/fyp/static/media/nucleo-icons.f82ec6ba.ttf"
   },
@@ -80,20 +76,20 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
   },
   {
-    "revision": "9b6c8da3c489424e2b3e9c9fb6314b37",
-    "url": "/fyp/static/media/fa-brands-400.9b6c8da3.eot"
+    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
+    "url": "/fyp/static/media/nucleo-icons.0b8a30b1.svg"
   },
   {
     "revision": "48461ea4e797c9774dabb4a0440d2f56",
     "url": "/fyp/static/media/fa-brands-400.48461ea4.woff2"
   },
   {
-    "revision": "7b464e274bc331f9a765d765359635a5",
-    "url": "/fyp/static/media/fa-brands-400.7b464e27.woff"
+    "revision": "9b6c8da3c489424e2b3e9c9fb6314b37",
+    "url": "/fyp/static/media/fa-brands-400.9b6c8da3.eot"
   },
   {
-    "revision": "947b9537bc0fecc8130d48eb753495a1",
-    "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
+    "revision": "7b464e274bc331f9a765d765359635a5",
+    "url": "/fyp/static/media/fa-brands-400.7b464e27.woff"
   },
   {
     "revision": "7422060ca379ee9939d3b687d072acad",
@@ -102,6 +98,10 @@ self.__precacheManifest = [
   {
     "revision": "949a2b066ec37f5a384712fc7beaf2f1",
     "url": "/fyp/static/media/fa-regular-400.949a2b06.woff2"
+  },
+  {
+    "revision": "947b9537bc0fecc8130d48eb753495a1",
+    "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
   },
   {
     "revision": "381af09a1366b6c2ae65eac5dd6f0588",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "e4fa1a02f008a1d97ce70ced3bea3d66",
+    "revision": "781682f39f10716acef76b107341caf7",
     "url": "/fyp/index.html"
   }
 ];
