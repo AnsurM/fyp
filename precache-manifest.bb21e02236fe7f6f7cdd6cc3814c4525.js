@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e99c4869381a62ef8dfc",
+    "revision": "07ab843008925188e728",
     "url": "/fyp/static/css/main.46d51561.chunk.css"
   },
   {
-    "revision": "e99c4869381a62ef8dfc",
-    "url": "/fyp/static/js/main.1b86dd53.chunk.js"
+    "revision": "07ab843008925188e728",
+    "url": "/fyp/static/js/main.c67123ac.chunk.js"
   },
   {
     "revision": "ab6e41b51d83ef0adc7e",
@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/nucleo-icons.c1733565.eot"
   },
   {
+    "revision": "426439788ec5ba772cdf94057f6f4659",
+    "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
+  },
+  {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
     "url": "/fyp/static/media/nucleo-icons.2569aaea.woff"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "/fyp/static/media/nucleo-icons.f82ec6ba.ttf"
-  },
-  {
-    "revision": "426439788ec5ba772cdf94057f6f4659",
-    "url": "/fyp/static/media/nucleo-icons.42643978.woff2"
   },
   {
     "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
@@ -100,20 +100,20 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/fa-regular-400.949a2b06.woff2"
   },
   {
-    "revision": "947b9537bc0fecc8130d48eb753495a1",
-    "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
-  },
-  {
     "revision": "381af09a1366b6c2ae65eac5dd6f0588",
     "url": "/fyp/static/media/fa-regular-400.381af09a.woff"
   },
   {
-    "revision": "73fe7f1effbf382f499831a0a9f18626",
-    "url": "/fyp/static/media/fa-regular-400.73fe7f1e.ttf"
+    "revision": "947b9537bc0fecc8130d48eb753495a1",
+    "url": "/fyp/static/media/fa-brands-400.947b9537.ttf"
   },
   {
     "revision": "b5a61b229c9c92a6ac21f5b0e3c6e9f1",
     "url": "/fyp/static/media/fa-regular-400.b5a61b22.svg"
+  },
+  {
+    "revision": "73fe7f1effbf382f499831a0a9f18626",
+    "url": "/fyp/static/media/fa-regular-400.73fe7f1e.ttf"
   },
   {
     "revision": "14a08198ec7d1eb96d515362293fed36",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/fyp/static/media/ourlogo1.b8d3bb25.png"
   },
   {
-    "revision": "781682f39f10716acef76b107341caf7",
+    "revision": "8b33cf094a6ff9676ba935e6c67c577a",
     "url": "/fyp/index.html"
   }
 ];
