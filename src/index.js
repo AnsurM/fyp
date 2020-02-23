@@ -32,7 +32,7 @@ require("./index.css");
 
 ReactDOM.render(
   <>
-    <div id="loader">
+    <div id="myLoader">
       <img
         id="loader-image"
         src={require("./assets/img/icons/common/UoK.png")}

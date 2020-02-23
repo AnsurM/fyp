@@ -16,7 +16,7 @@ api.interceptors.request.use(
     // show loader
     setTimeout(() => {
       if (!window.location.href.includes("login")) {
-        document.getElementById("loader").style.display = "block";
+        document.getElementById("myLoader").style.display = "block";
       }
     }, 300);
     return config;
@@ -32,16 +32,16 @@ api.interceptors.response.use(
     numberOfAjaxCAllPending--;
 
     if (numberOfAjaxCAllPending == 0) {
-      //hide loader
-      document.getElementById("loader").style.display = "none";
+      //hide myLoader
+      document.getElementById("myLoader").style.display = "none";
     }
     return response;
   },
   function(error) {
     numberOfAjaxCAllPending--;
     if (numberOfAjaxCAllPending == 0) {
-      //hide loader
-      document.getElementById("loader").style.display = "none";
+      //hide myLoader
+      document.getElementById("myLoader").style.display = "none";
     }
     return Promise.reject(error);
   }
